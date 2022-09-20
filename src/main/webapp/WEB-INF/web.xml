@@ -1,0 +1,42 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+    <servlet-name>Myservlet</servlet-name>
+    <servlet-class>com.lesha.servlet.Servlet</servlet-class>
+
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Myservlet</servlet-name>
+    <url-pattern>/egor</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>first_screen</servlet-name>
+    <jsp-file>/first_screen.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>first_screen</servlet-name>
+    <url-pattern>/rodionov</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>second_screen</servlet-name>
+    <jsp-file>/second_screen.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>second_screen</servlet-name>
+    <url-pattern>/andreevich</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>third_screen</servlet-name>
+    <jsp-file>/third_screen.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>third_screen</servlet-name>
+    <url-pattern>/andr</url-pattern>
+  </servlet-mapping>
+
+</web-app>
